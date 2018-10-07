@@ -8,6 +8,7 @@
 * IntelliJ
 * GitHub
 
-### Descripción
-Trabajo Control de versiones
+#Notas
+He creado una nueva issue para intentar corregir errones en sonarcloud.
+
 
