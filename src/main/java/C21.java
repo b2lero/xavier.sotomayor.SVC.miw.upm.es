@@ -5,6 +5,6 @@ public class C21 {
     }
 
     public String m2(){
-        return "m1";
+        return "m2";
     }
 }
