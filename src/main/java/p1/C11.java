@@ -1,12 +1,11 @@
+package p1;
 
-public class C21 {
+public class C11 {
     public String m1(){
         return "m1";
     }
-
+    // simulating fixing a bug
     public String m2(){
         return "m2";
     }
-
-    public String m3() { return "m3"; }
 }

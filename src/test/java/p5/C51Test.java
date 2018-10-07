@@ -1,25 +1,27 @@
+package p5;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import p5.C51;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class C11Test {
+public class C51Test {
 
-    private C11 c11;
+    private C51 c51;
 
     @BeforeEach
     void before(){
-        this.c11 = new C11();
+        this.c51 = new C51();
     }
 
     @Test
     void testM1(){
-        assertEquals("m1", this.c11.m1());
+        assertEquals("m1", this.c51.m1());
     }
 
     @Test
     void testM2(){
-        assertEquals("m2", this.c11.m2());
+        assertEquals("m2", this.c51.m2());
     }
-
 }

@@ -1,4 +1,6 @@
-public class C12 {
+package p3;
+
+public class C32 {
     public String mA(){
         return "mA";
     }
