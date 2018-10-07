@@ -1,19 +1,23 @@
+package p1;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import p1.C12;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class C32Test {
+public class C12Test {
 
-    private C32 c32;
+    private C12 c12;
 
     @BeforeEach
     void before(){
-        this.c32 = new C32();
+        this.c12 = new C12();
     }
 
     @Test
     void testMA(){
-        assertEquals("mA", this.c32.mA());
+        assertEquals("mA", this.c12.mA());
     }
+
 }

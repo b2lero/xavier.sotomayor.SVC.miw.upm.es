@@ -1,26 +1,28 @@
+package p1;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import p1.C11;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class C31Test {
-    private C31 c31;
+class C11Test {
+
+    private C11 c11;
 
     @BeforeEach
     void before(){
-        this.c31 = new C31();
+        this.c11 = new C11();
     }
 
     @Test
     void testM1(){
-        assertEquals("m1", this.c31.m1());
+        assertEquals("m1", this.c11.m1());
     }
 
     @Test
     void testM2(){
-        assertEquals("m2", this.c31.m2());
+        assertEquals("m2", this.c11.m2());
     }
 
-    @Test
-    void testMB(){ assertEquals("mB", this.c31.mB());}
 }
