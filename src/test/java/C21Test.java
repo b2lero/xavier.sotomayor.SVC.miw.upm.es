@@ -22,4 +22,9 @@ class C21Test {
         assertEquals("m2", this.c21.m2());
     }
 
+    @Test
+    void testM3(){
+        assertEquals("m3", this.c21.m3());
+    }
+
 }
