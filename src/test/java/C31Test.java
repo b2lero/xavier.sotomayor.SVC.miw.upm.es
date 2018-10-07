@@ -20,4 +20,7 @@ class C31Test {
     void testM2(){
         assertEquals("m2", this.c31.m2());
     }
+
+    @Test
+    void testMB(){ assertEquals("mB", this.c31.mB());}
 }
